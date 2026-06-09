@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title> HTML Tags </title>
+
+    <!-- Favicon is a image displayed next to the page title in the tab. 
+         A common name for a favicon image is "favicon.ico". -->
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -11,44 +15,63 @@
     <!-- Whole Thing Called Element -->
 
     <!-- <tagname style = "Property : Value;"> Content </tagname> -->
-    <h1 style="text-align: center;"> Introduction </h1>
+    <!-- Heading has a default size. However, you can specify the size by using 'style="font-size:60px;"' attribute -->
+    <h1 style="text-align: center;"> Basic Tags </h1>
 
     <p>
-        I am Md. Arafat Rahman Samir.
+        HTML stands For Hyper Text Markup Language.
         <br> <!-- Line Break -->
-        I am currently pursuing my Bachelors degree in Computer Science and
-        Engineering at American International University-Bangladesh (AIUB), where I have successfully completed 111
-        credits.
-    </p>
 
-    <p> HTML stands <br> For Hyper Text Markup Language. </p>
-    <hr> <!-- Horizontal Line -->
+        HTML tags are not case sensitive: "P" means the same as "p".
+
+        <hr> <!-- Horizontal Line -->
 
     <p>
-        <b> Bold Text </b>
-        <strong> Text </strong>
-        <i></i>
-        <em></em>
-        <u></u>
-        <ins></ins>
-        <mark></mark>
-        <small></small>
-        <del></del>
-        Superscript : X<sup>3</sup>
+        <b> Bold Text, </b>
+        <strong> Important text </strong>
+    </p>
+
+    <p>
+        <i> Italic text, </i>
+        <em> Emphasized text </em>
+    </p>
+
+    <p>
+        <u> Underline text, </u>
+        <ins> Inserted text </ins>
+    </p>
+
+    <p>
+        <mark> Marked text </mark>
+    </p>
+
+    <p>
+        <small> Smaller text </small>
+    </p>
+    <p>
+        <del> Deleted text </del>
+    </p>
+
+    <p>
+        Superscripted : X<sup>3</sup>
         <br>
-        Subscript : H<sub>2</sub>O
-
+        Subscripted : H<sub>2</sub>O
+    </p>
     </p>
 
     <p>
-        Git Hub :
+        My Git Hub Account (Image as Link) :
+        <br>
         <!-- This is HTML Link -->
+        <!-- title="txt" : Show the txt when mouse over the element -->
         <!-- target="_blank" : To Open in New Tab -->
-        <!-- title="txt" : Show the txt when hover the mouse -->
-        <a href="https://github.com/Samir201514" title="GitHub" target="_blank"> My Git Hub Account </a>
-    </p>
+        <a title="Go to GitHub" href="https://github.com/Samir201514" target="_blank">
 
-    <img width="100px" height="50px" src="Images/HTML_Logo.png" alt="HTML Logo">
+            <!-- src => The source file, alt => alternative text -->
+            <img width="100px" height="75px" src="Images/GitHub_Logo.png" alt="HTML Logo">
+
+        </a>
+    </p>
 
 </body>
 
