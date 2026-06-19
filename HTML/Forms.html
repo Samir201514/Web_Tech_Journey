@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> HTML Forms </title>
 </head>
+
 <body>
     <h1 style="text-align: center;"> Forms </h1>
-    
+
+    <form>
+        <fieldset>
+            <legend style="text-align: center;"> Personal Information </legend>
+
+            <label> Name : </label>
+            <input placeholder="Enter your name" type="text">
+            <br> <br>
+
+            <label> ID : </label>
+            <input placeholder="Enter your ID" type="text">
+            <br> <br>
+
+            <label> Age : </label>
+            <input placeholder="Enter your age" type="number">
+            <br> <br>
+
+            <label> Date of Birth : </label>
+            <input type="date">
+            <br> <br>
+
+            <label> Gender : </label>
+            <!-- Used name attributies to group the radio
+                 Used value attributies to store the value -->
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br> <br>
+
+            <label> E-mail : </label>
+            <input required placeholder="Enter your email address" type="email">
+            <br> <br>
+
+            <label> Password : </label>
+            <input placeholder="Enter your password" type="password">
+            <br> <br>
+
+            <label> Country : </label>
+            <select>
+                <option value=""> Select a Country </option>
+                <option value="bd"> Bangladesh </option>
+                <option value="usa"> USA </option>
+                <option value="uk"> UK </option>
+            </select>
+        </fieldset>
+
+        <br> <br>
+
+        <fieldset>
+            <legend style="text-align: center;"> Academic Information </legend>
+
+            <label> Courses : </label>
+            <!-- Used name attributies to group the checkbox
+            Used value attributies to store the value -->
+            <input type="checkbox" name="course" value="webTech"> Web Tech
+            <input type="checkbox" name="course" value="computerGraphics"> Computer Graphics
+            <input type="checkbox" name="course" value="rm"> RM
+            <input type="checkbox" name="course" value="chemistry"> Chemistry
+            <br> <br>
+
+            <label> Class Time : </label>
+            <input type="time">
+            <br> <br>
+
+            <label> Grade Sheet : </label>
+            <input type="file" accept="application/pdf">
+        </fieldset>
+
+        <br> <br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+
 </body>
+
 </html>
