@@ -1,0 +1,12 @@
+/* CSS stands for Cascading Style Sheets */
+
+/* 
+  Selectors { 
+              property : value;
+              property : value;
+            } 
+*/
+
+p {
+  text-align: center;
+}
