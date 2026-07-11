@@ -8,11 +8,12 @@
 <body>
     <h1 style="text-align: center;"> Forms </h1>
 
-    <form>
+    <form action="https://github.com/Samir201514" target="_blank">
         <fieldset>
             <legend style="text-align: center;"> Personal Information </legend>
 
             <label> Name : </label>
+            <!-- readonly disabled -->
             <input placeholder="Enter your name" type="text">
             <br> <br>
 
@@ -30,9 +31,12 @@
 
             <label> Gender : </label>
             <!-- Used name attributies to group the radio
-                 Used value attributies to store the value -->
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
+                 Used value attributies to store the value 
+                 Used for attributies to clickable labels (id & for should be the same)-->
+            <input id="male" type="radio" name="gender" value="Male">
+            <label for="male"> Male </label>
+            <input id="female" type="radio" name="gender" value="Female">
+            <label for="female"> Female </label>
             <br> <br>
 
             <label> E-mail : </label>
@@ -60,10 +64,14 @@
             <label> Courses : </label>
             <!-- Used name attributies to group the checkbox
             Used value attributies to store the value -->
-            <input type="checkbox" name="course" value="webTech"> Web Tech
-            <input type="checkbox" name="course" value="computerGraphics"> Computer Graphics
-            <input type="checkbox" name="course" value="rm"> RM
-            <input type="checkbox" name="course" value="chemistry"> Chemistry
+            <input id="wt" type="checkbox" name="course" value="webTech">
+            <label for="wt"> Web Tech </label>
+            <input id="cg" type="checkbox" name="course" value="computerGraphics">
+            <label for="cg"> Computer Graphics </label>
+            <input id="rm" type="checkbox" name="course" value="rm">
+            <label for="rm"> RM </label>
+            <input id="che" type="checkbox" name="course" value="chemistry">
+            <label for="che"> Chemistry </label>
             <br> <br>
 
             <label> Class Time : </label>
@@ -72,6 +80,24 @@
 
             <label> Grade Sheet : </label>
             <input type="file" accept="application/pdf">
+        </fieldset>
+
+        <br> <br>
+
+        <fieldset>
+            <legend style="text-align: center;"> Others </legend>
+
+            <label> Colors : </label>
+            <input type="color">
+            <br> <br>
+
+            <label> Range : </label>
+            <input min="0" max="100" type="range">
+            <br> <br>
+
+            <textarea placeholder="Feedbacks" cols="50" rows="10"></textarea>
+            <br> <br>
+
         </fieldset>
 
         <br> <br>
