@@ -1,0 +1,70 @@
+/* 1. Universal Selector */
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* 2. Element Selector */
+span{
+  font-size: 25px;
+}
+
+
+/* 3. ID Selector */
+#p1{
+  color: magenta;
+}
+
+
+/* 4. Class Selector */
+.p2{
+  background-color: cyan;
+}
+
+
+/* 5. Group Selector */
+b, i {
+  color: darkred;
+}
+
+
+/* 6. Decendaent Selector (all p inside any div) */
+div p{
+  font-size: 30px;
+}
+
+
+/* 7. Parent-Child Selector (only direct child) */
+div > span{
+  color: greenyellow;
+}
+
+
+/* 9. General-Sibling Selector (all p after <hr>) */
+hr~p{
+  color: yellow;
+}
+
+
+/* 8. Adjacent-Sibling Selector (Immediately after an <hr>) */
+hr+p{
+  color:blue;
+}
+
+
+/* 10. Attribute Selector */
+input[type="text"]{
+  color:crimson;
+}
+
+
+/* 11. Psudo-Class Selector */
+button:hover{
+  background-color:blueviolet;
+}
+
+
+/* 12. Pseudo-element Selector */
+p::first-letter{
+  font-size: 50px;
+}
