@@ -33,6 +33,9 @@ console.log(document.getElementById("sp1"));
 console.log(document.getElementsByClassName("sp"));
 console.log(document.querySelector(".sp"));
 console.log(document.querySelectorAll(".sp"));
+s = document.querySelectorAll(".sp");
+s[0].innerHTML = "Form JS";
+console.log(s[1]);
 /*<p class="demo">One</p>
 <p class="demo">Two</p>
 
