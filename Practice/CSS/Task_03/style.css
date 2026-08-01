@@ -1,0 +1,35 @@
+a{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#home:hover{
+    background-color: blueviolet;
+    color: red;
+}
+
+#about:hover{
+    background-color: blue;
+    color: yellow;
+}
+
+#services:hover{
+    background-color: green;
+    color: magenta;
+}
+
+#gallery:hover{
+    background-color: lime;
+    color: cyan;
+}
+
+#contact:hover{
+    background-color: lightpink;
+    color: brown;
+}
+
+nav{
+    background-color: lightskyblue;
+}
