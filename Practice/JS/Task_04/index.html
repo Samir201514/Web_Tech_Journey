@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> JS Task - 04 </title>
+    <script src="script.js" defer></script>
+</head>
+<!-- You are building a Student Management System. The admin should be able to add and remove
+student records from a table dynamically.
+Steps:
+ -->
+<body>
+    <fieldset>
+        <legend> Student Management System </legend>
+        <table id="table" border="1">
+            <tr>
+                <th> Name </th>
+                <th> Roll </th>
+                <th> Department </th>
+                <th> Action </th>
+            </tr>
+        </table>
+        <br><br>
+        
+        <label for="name"> Name </label>
+        <input type="text" name="name" id="name">
+        <br> <span id="nameErr" style="color: red;"></span> <br>
+
+        <label for="roll"> Roll </label>
+        <input type="text" name="roll" id="roll">
+        <br> <span id="rollErr" style="color: red;"></span> <br>
+        
+        <label for="dept"> Department </label>
+        <input type="text" name="dept" id="dept">
+        <br> <span id="deptErr" style="color: red;"></span> <br>
+
+        <button id="btn"> Add Student </button>
+    </fieldset>
+</body>
+</html>
