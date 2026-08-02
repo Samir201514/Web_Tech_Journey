@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mid Lab Task - 01 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+</head>
+<body>
+    <h1 id="head"> Employee Management System </h1>
+
+    <form action="" method="" enctype="application/x-www-form-urlencoded" onsubmit="return validForm()">
+        <label for="name"> Employee Name </label>
+        <input type="text" id="name" name="name" value="">
+        <br><br>
+        
+        <label for="id"> Employee ID </label>
+        <input type="number" id="id" name="id" value="">
+        <br><br>
+        
+        <label for="dept"> Department </label>
+        <input type="text" id="dept" name="dept" value="">
+        <br><br>
+
+        <label for="salary"> Monthly Salary </label>
+        <input type="number" id="salary" name="salary" value="">
+        <br><br>
+        
+        <span id="errorMsg"> </span>
+        <br><br>
+
+        <div id="btnDiv">
+            <button id="submit" type="submit"> Generate Employee Card </button>
+            <button id="reset" type="reset"> Reset </button>
+        </div>
+    </form>
+
+    <div id="cardDiv"></div>
+</body>
+</html>
