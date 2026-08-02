@@ -3,6 +3,7 @@
 
 <head>
     <title> DailyFlash | Home </title>
+    <link rel="stylesheet" href="../../CSS/Task_09/style.css">
     <meta charset="UTF-8">
     <meta name="author" content="MD. ARAFAT RAHMAN SAMIR">
     <meta name="description" content="DailyFlash - Breaking news and trending stories from around the world.">
@@ -41,52 +42,7 @@
 
     <main>
         <!-- A thumbnail image representing the article. -->
-        <article>
-            <hr>
-            <h2> World Leaders Meet for Climate Summit </h2>
-            <time datetime="2026-08-01"> August 1, 2026 </time>
-            <p>
-                World leaders from over 50 countries gathered to discuss solutions for climate change and global
-                sustainability. The summit focused on reducing greenhouse gas emissions, expanding renewable energy, and
-                strengthening international cooperation. Several new agreements were proposed to help achieve long-term
-                environmental goals. Experts believe these discussions could shape future climate policies around the
-                world.
-                <a href="world.html"> Read More </a>
-            </p>
-            <hr>
-        </article>
-
-        <article>
-            <hr>
-            <h2> National Team Wins Championship </h2>
-            <time datetime="2026-08-01"> August 1, 2026 </time>
-            <p>
-                The national team secured a memorable victory in the championship final after an exciting match.
-                Outstanding performances from key players helped the team overcome a strong opponent and lift the
-                trophy. Fans celebrated the historic achievement across the country with great enthusiasm. The win marks
-                one of the team's most successful seasons in recent years.
-                <a href="sports.html"> Read More </a>
-            </p>
-            <hr>
-        </article>
-
-        <article>
-            <hr>
-            <h2> New Smartphone Sets Record Sales </h2>
-            <time datetime="2026-08-01"> August 1, 2026 </time>
-            <p>
-                A newly released smartphone has broken first-week sales records in several international markets. The
-                device has attracted customers with its advanced camera system, AI-powered features, and improved
-                battery life. Retail stores reported high demand, with many models selling out within hours. Industry
-                analysts expect the smartphone to remain one of the year's best-selling devices.
-                <a href=""> Read More </a>
-            </p>
-            <hr>
-        </article>
-
-        <aside>
-            <hr>
-
+        <aside id="sidebar">
             <h3> Top Headlines </h3>
             <ul>
                 <li>
@@ -129,14 +85,61 @@
                     </a>
                 </li>
             </ul>
+        </aside>
 
-            <div style="width: fit-content; background-color: lightcoral;">
+        <section id="mainContent">
+            <article>
+                <h2> World Leaders Meet for Climate Summit </h2>
+                <time datetime="2026-08-01"> August 1, 2026 </time>
+                <p>
+                    World leaders from over 50 countries gathered to discuss solutions for climate change and global
+                    sustainability. The summit focused on reducing greenhouse gas emissions, expanding renewable energy,
+                    and
+                    strengthening international cooperation. Several new agreements were proposed to help achieve
+                    long-term
+                    environmental goals. Experts believe these discussions could shape future climate policies around
+                    the
+                    world.
+                    <a href="world.html"> Read More </a>
+                </p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h2> National Team Wins Championship </h2>
+                <time datetime="2026-08-01"> August 1, 2026 </time>
+                <p>
+                    The national team secured a memorable victory in the championship final after an exciting match.
+                    Outstanding performances from key players helped the team overcome a strong opponent and lift the
+                    trophy. Fans celebrated the historic achievement across the country with great enthusiasm. The win
+                    marks
+                    one of the team's most successful seasons in recent years.
+                    <a href="sports.html"> Read More </a>
+                </p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h2> New Smartphone Sets Record Sales </h2>
+                <time datetime="2026-08-01"> August 1, 2026 </time>
+                <p>
+                    A newly released smartphone has broken first-week sales records in several international markets.
+                    The
+                    device has attracted customers with its advanced camera system, AI-powered features, and improved
+                    battery life. Retail stores reported high demand, with many models selling out within hours.
+                    Industry
+                    analysts expect the smartphone to remain one of the year's best-selling devices.
+                    <a href=""> Read More </a>
+                </p>
+            </article>
+        </section>
+
+        <aside id="ad">
                 Advertisement
                 <br>
                 Promotional
-            </div>
-
-            <hr>
         </aside>
     </main>
 
