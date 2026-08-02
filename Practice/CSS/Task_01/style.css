@@ -1,0 +1,28 @@
+/* 
+Round the student image corners using border-radius.
+Add a light background color to the profile section.
+*/
+#profile{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-color: cyan;
+
+    padding: 20px;
+    border: 2px solid black;
+    margin: auto;
+
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgreen;
+    margin: 20px;
+}
