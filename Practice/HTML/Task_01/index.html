@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title> HTML Task - 01 </title>
     <script src="../../JS/Task_03/script.js" defer> </script>
+    <script src="../../JS/Task_09/script.js" defer> </script>
     <meta name="author" content="MD. ARAFAT RAHMAN SAMIR">
     <meta name="description"
         content="I am Md. Arafat Rahman Samir. Currently, I am pursuing my Bachelors degree in Computer Science and Engineering at American International University-Banglades (AIUB)">
@@ -12,9 +13,12 @@
 
 <body>
     <header>
-        <h3> MD. ARAFAT RAHMAN SAMIR </h3>
+        <h3 id="clock"> MD. ARAFAT RAHMAN SAMIR </h3>
 
         <nav>
+            <a id="aboutNav" href="#about"> About </a>
+            <a id="projectsNav" href="#projects"> Projects </a>
+            <a id="contactNav" href="#contact"> Contact </a>
             <button id="btn"> Dark Mode </button>
         </nav>
     </header>
@@ -22,16 +26,13 @@
     <hr>
 
     <main>
-        <section>
+        <section id="about">
             My name is Md. Arafat Rahman Samir. I am currently pursuing my Bachelors degree in Computer Science and
             Engineering at American International University-Banglades (AIUB), where I have successfully completed 111
             credits with CGPA 3.62. Throughout my academic life, I have consistently maintained high standards achieving
             a GPA of 5 in both SSC and HSC exams.
-        </section>
 
-        <br> <br>
-
-        <div id="edu">
+            <br> <br>
             <table border="1">
                 <caption> Education Qualifications </caption>
 
@@ -70,33 +71,43 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </section>
 
-        <br> <br>
+        <hr>
 
-        <div id="form">
-            <form action="" style="text-align: center;">
+        <section id="projects">
+            Projects
+        </section>
+
+        <hr>
+        
+        <section id="contact">
+            <form action="" method="" enctype="application/x-www-form-urlencoded" onsubmit="return validContact()">
                 <fieldset>
                     <legend> Contact Me </legend>
 
                     <label for="name"> Name : </label>
                     <input type="text" name="name" id="name" placeholder="Enter Your Name">
-                    <br> <br>
+                    <br> <span id="nameErr" style="color: red;"></span><br>
 
                     <label for="email"> Email : </label>
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
-                    <br> <br>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                    <br> <span id="emailErr" style="color: red;"></span><br>
 
-                    <label for="number"> Phone : </label>
-                    <input type="number" name="number" id="number" placeholder="Contact Number">
-                    <br> <br>
 
-                    <textarea name="question" id="question" placeholder="Type your queries" rows="5"
-                        cols="50"></textarea>
-                    <br> <br>
+                    <label for="phone"> Phone : </label>
+                    <input type="number" name="phone" id="phone" placeholder="Contact Number">
+                    <br> <span id="phoneErr" style="color: red;"></span><br>
+
+                    <textarea name="textMsg" id="textMsg" placeholder="Type your queries" rows="5" cols="50"></textarea>
+                    <br> <span id="textMsgErr" style="color: red;"></span><br>
+
+                    <button type="submit" id="submit" name="submit" value="submit">
+                        Send Message
+                    </button>
                 </fieldset>
             </form>
-        </div>
+        </section>
     </main>
 
     <hr>
