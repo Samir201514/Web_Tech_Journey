@@ -1,0 +1,15 @@
+#card{
+    position: relative;
+    background-color: cyan;
+    padding: 20px;
+    border: 2px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+}
+
+#status{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
