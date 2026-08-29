@@ -24,7 +24,8 @@ span{
 
 /* 5. Group Selector */
 b, i {
-  color: darkred;
+  font-weight: 20px;
+  border: 5px dotted lightgreen;
 }
 
 
