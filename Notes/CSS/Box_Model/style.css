@@ -1,0 +1,29 @@
+div{
+    text-align: justify;
+
+
+    width: 720px;
+    height: 360px;
+
+
+    color: black;
+    background-color: aqua;
+
+
+    border: 2px solid darkblue;
+    border-radius: 5%;
+
+
+    /* padding: top-bottom  right-left; */
+    padding: 30px;
+
+
+    /* margin: top right bottom left; */
+    margin: 40px;
+
+
+    opacity: 0.5;
+
+
+    cursor: pointer;
+}
