@@ -1,0 +1,52 @@
+#main{
+    font-size: 30px;
+
+    width: 1200px;
+    height: 500px;
+    
+    padding: 20px;
+    border: 2px solid lawngreen;
+    margin: 10px;
+
+
+
+
+    /* Flex Box Properties */
+    display: flex;
+    flex-direction: row; /*row(default)/row-reverse/ column/column-reverse*/
+    
+
+    justify-content: center; /*along the direction of flex*/
+    align-items: center; /*across the direction of flex*/
+
+
+    flex-wrap: wrap;  /* Moves items to next line if needed */
+
+
+    /* justify-content: space-between; around/evenly Equal space between items */
+    gap: 50px;  /* Space between flex items */
+}
+
+#main > div{
+    width: 150px;
+    height: 150px;
+}
+
+#box1{
+    background-color: cyan;
+}
+#box2{
+    background-color: red;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: green;
+}
+#box5{
+    background-color: magenta;
+}
+#box6{
+    background-color: yellow;
+}
