@@ -1,0 +1,14 @@
+div{
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+
+
+    /* 
+      Overflow
+      By default = visible
+      hidden = hides overflow; scrolling can still be used programmatically      clip = cuts/clips overflow; scrolling is not allowed
+    */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
