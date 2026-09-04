@@ -1,6 +1,6 @@
 /*In JavaScript, functions are first-class objects, meaning they can be:
 stored in variables, passed as parameters, returned from other functions. */
-function test() {
+function scope() {
 
     if (true) {
         var d = "var";
@@ -10,12 +10,15 @@ function test() {
     console.log(d); // can be access
     //console.log(e); //Out of scope
 }
-test();
+scope();
+
+
 
 function normalFunction(){
     console.log("Normal Function");
 }
 normalFunction();
+
 
 
 function returnFunction(){
@@ -24,10 +27,12 @@ function returnFunction(){
 console.log(returnFunction());
 
 
+
 function defaultParameterFunction(x = "Default"){
     console.log(x + " Parameter Function");
 }
 defaultParameterFunction();
+
 
 
 let anonymousFunction = function(){
@@ -35,17 +40,26 @@ let anonymousFunction = function(){
 }
 anonymousFunction();
 
+
     
 let arrowFunction = () => {
     console.log("Arrow Function");
 }
 arrowFunction();
 
-let arrowOneParaFunction = p => {
-    console.log("Arrow Function " + p);
+
+
+let arrowOneParaFunction = a => {
+    console.log("Arrow Function " + a);
 }
 arrowOneParaFunction("With One Parameter");
 
 
-let arrowOneLineFunction = l => "Arrow Function " + l;
+
+let arrowOneLineFunction = a => "Arrow Function " + a;
 console.log(arrowOneLineFunction("In One Line"));
+
+
+
+let arrowOneLineFunctionWithTwoPara = (a,b) => "Arrow Function " + a + b;
+console.log(arrowOneLineFunctionWithTwoPara("In One Line", " with Two Parametters"));
