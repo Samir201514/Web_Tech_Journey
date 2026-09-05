@@ -1,5 +1,5 @@
 //Object : An object is a collection of properties and methods.
-//Each on called Entry with Key-Value pairs
+//Each on called Entry with Key-Value pairs.
 const student = {
     name : "Samir",
     id : "23-55488-3",
