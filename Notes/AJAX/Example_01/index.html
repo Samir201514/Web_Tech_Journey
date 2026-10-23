@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Auto Name Suggestion </title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <form action="">
+        <label for="name">Enter Your Name : </label>
+        <input type="text" id="name" name="name" onkeyup="showResult(this.value)">
+    </form>
+
+    <div>
+        <p>Suggestions : <span id="sugg"></span></p>
+    </div>
+</body>
+</html>
