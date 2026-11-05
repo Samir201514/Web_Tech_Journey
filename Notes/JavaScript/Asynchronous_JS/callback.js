@@ -4,6 +4,10 @@
 // Callback Hell is a situation in JavaScript where multiple callback functions are nested inside one another, making the code difficult to read, understand, debug, and maintain. 
 // It is also known as the Pyramid of Doom because of its pyramid-like code structure.
 
+//In JavaScript, a Higher-Order Function (HOF) is a function that does at least one of these two things:
+// 1. Takes another function as an argument.
+// 2. Returns another function.
+
 function getData(id, callback){
     setTimeout(() => {
         console.log(`User : ${id}`)
