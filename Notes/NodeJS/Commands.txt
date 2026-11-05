@@ -1,0 +1,18 @@
+node -v
+
+node index.js
+node --watch index.js
+
+[Node Package Manager]
+npm -v
+
+npm i
+npm install
+
+npm init -y
+
+npm install express
+
+[-D means --save-dev]
+npm install -D nodemon
+npx nodemon index.js
