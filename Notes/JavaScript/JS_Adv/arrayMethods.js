@@ -56,7 +56,11 @@ const stdCourseUpdate = [...stdCourse, course3]
 console.log(stdCourseUpdate);
 
 
+// forEach() is an array method that lets you execute a function once for every element in an array.
+stdCourseUpdate.forEach(e => console.log(e.name))
 
+// forEach() is used to perform an action on each array element.
+// map() is used to create a new array by transforming each element.
 
 // map() is an array method that goes through every element of an array and creates a new array based on what you return. Does NOT modify the original array.
 const numbers = [1, 2, 3];
