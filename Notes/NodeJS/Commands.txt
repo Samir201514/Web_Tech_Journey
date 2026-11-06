@@ -2,22 +2,17 @@
 4.17.1
 major.minor.patch
 
-
 node -v
-
-node index.js
-node --watch index.js
 
 [Node Package Manager]
 npm -v
 
-npm i
-npm install
 
 npm init -y
 
-npm install express
+node index.js
+node --watch index.js
 
-[-D means --save-dev]
-npm install -D nodemon
-npx nodemon index.js
+
+npm i
+npm install
