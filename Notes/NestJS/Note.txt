@@ -1,0 +1,27 @@
+NestJS is a Node Framework which runs on NodeJS and build on top of ExpressJS for building efficient, scalable backends, from one file to enterprise-grade systems.building efficent and scealable server-side applications. Built with TypeScript and inspired by AngularJS. Use Modular Architeacture. Similar to ASP.NET, SpringBoots
+
+
+NestJS Achitecture: Modular, Scalable, Reuseable, Maintainable and Well-Structure
+User/Clint/Browers Request by Triggering an Endpoint(/users) -> Controllers Sends into Service.
+
+
+// Modules(Restaurant): a containter to manage controllers, services/providers. Core parts of the NestJS Achitecture. Every NestJS Has atleast one moudel app.module.ts(Parent Module)
+
+// Services(Cheif): User to write Business logics and reuseable and scaleable.
+// @Injectable helps to provides this class a service
+// @Inject use in controllers in contructor injection 
+
+// Controllers(Waiter): Handles http Requsets. Revices Requst, Sends Response. Help to Saparate Routing and Business Logic.
+
+// Decorators: Metadata/Special Functions for class, methods/fucntions or properties/variables. Start with @ Symbol. Tell NestJS how to treat that.
+
+// endpoints
+// Paths 'users'
+// Parametters ':id' means dynamic id can be any thing number/string; Use Param(treates as string) to get this 'id'
+
+
+// Provides : Any class that can be Injectable or ruseable which register in the Module using Dependecy Injection.
+
+// Dependecy Injection: NestJS automaticlly provides Servieces where needed; don't needs to create any object/instances manually
+
+
